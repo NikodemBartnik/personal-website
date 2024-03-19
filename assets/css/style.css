@@ -1114,7 +1114,26 @@ main {
   line-height: 1.6;
 }
 
+#link_list{
+	padding: 20px;
+  font-size: 12px;
+	border-top: 2px solid #313131;
+  color: var(--white-1)
+}
 
+#link_list a{
+  color: var(--white-2);
+  text-decoration: underline;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  transition: 0.3s;
+}
+
+#link_list a:hover{
+  color: var(--orange-yellow-crayola);
+  text-decoration: none;
+}
 
 
 
